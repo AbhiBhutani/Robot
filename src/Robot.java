@@ -15,6 +15,14 @@ public class Robot {
         placeCommandHasBeenIssued = false;
     }
 
+    /**
+     * 
+     * @param xPos xPosition
+     * @param yPos yPosition
+     * @param fDirection facing direction
+     * 
+     * This method places the robot in x, y coordinates in the specific direction 
+     */
     public void place(int xPos, int yPos, String fDirection) {
 
         boolean checkValidDirection = false;
@@ -80,6 +88,12 @@ public class Robot {
 
     }
 
+    /**
+     * 
+     * @param command left or right command
+     * 
+     * This method changes the direction of the robot as per the given command
+     */
     public void changeDirection(Command command) {
 
         switch (facingDirection) {
