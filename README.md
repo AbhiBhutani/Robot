@@ -1,6 +1,7 @@
 ## Getting Started
 
-Robot challenge
+Robot challenge.
+This solution addresses the given challenge https://github.com/ioof-holdings/recruitment/wiki/Robot-Challenge.
 
 ## Folder Structure
 
